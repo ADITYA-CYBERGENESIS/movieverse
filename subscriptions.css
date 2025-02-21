@@ -1,0 +1,119 @@
+* {
+  color: #fbd0d1;
+  font-family: "Nunito", serif;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background: #100202;
+  overflow-x: hidden;
+}
+.top_section-wrapper {
+  border-bottom: 2px solid #fbd0d1;
+  width: 100%;
+  background-color: #100202ac;
+  height: 100px;
+}
+
+.top_header {
+  width: calc(100vw-300px);
+  margin: 0 150px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+}
+
+.top_header img {
+  width: 60px;
+  flex-shrink: 0;
+}
+.top_header a {
+  text-decoration: none;
+  color: #fbd0d1;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 5px 20px;
+  background-color: #ff6666;
+  border-radius: 5px;
+}
+
+.bottom_section-wrapper{
+    min-height: 520px;
+    height: calc(100vh - 280px);
+
+}
+.bottom_section{
+    width: calc(100vw - 300px);
+    margin: auto 150px;
+    flex-shrink: 0;
+
+}
+.bottom_section > h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0 0 20px 0px;
+}
+.subscription-wrapper{
+    gap:30px;
+    justify-content: space-between !important;
+}
+.subscription-wrapper > div{
+    /* border: 3px solid #caa52b; */
+    border-radius: 5px;
+    /* padding: 10px 15px; */
+    background-color: hsl(46, 65%, 48%, 10%);
+    padding: 20px 20px;
+    margin:0 0 50px 0 ;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.subscription-wrapper > div:hover{
+    border: 3px solid #caa52b;
+    
+}
+.subscription-wrapper > div[data-selected="true"]{
+    border: 3px solid #caa52b;
+    
+}
+.subscription-wrapper div:first-child{
+    background-color: hsl(0, 100%, 70%, 20%) !important;
+
+}
+
+.subscription-wrapper > div h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.subscription-wrapper > div > ul {
+    padding: 0 0 0 18px;
+    margin-bottom: 25px;
+}
+.subscription-wrapper > div > ul > li{
+    font-size: 18px;
+    
+}
+.subscription-wrapper > div > button{
+    background-color: transparent;
+    font-size: 18px;
+    color:#ff6666;
+    border-radius:5px;
+    border: 2px solid #ff6666;
+    padding: 6px 8px;
+}
+
+.bottom_section a{
+    text-decoration: none;
+    color:#fbd0d1;
+    font-size: 21px;
+    background-color: #ff6666;
+    /* margin: 70px 0 0 0 ; */
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}

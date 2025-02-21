@@ -1,0 +1,76 @@
+title - movieverse
+
+Your Universe of Entertainment.
+
+lander page           - aditya
+signup                - vivek
+subscription          - amir 
+payment page          - sahoj
+login                 - harsh
+homepage              - aditya
+search result page    - shakir
+movies/show info page - sohel
+video player page     - himesh
+account               - sohel
+
+
+
+
+text #fbd0d1
+bg #100202
+primary #ff6666
+secondary #caa52b
+accent #77eb2f
+
+
+
+
+1. Text Color: #fbd0d1
+Use this color for the main text on your website.
+Apply it to headings, paragraphs, and other textual content that overlays darker backgrounds for good contrast.
+Avoid using this color on lighter backgrounds to maintain readability.
+2. Background Color: #100202
+This deep, dark color is perfect for the primary background of your website.
+Apply it to large sections like the body, header, and footer to create a cohesive and modern look.
+Use it to make bright colors (like primary, secondary, and accent) pop.
+3. Primary Color: #ff6666
+Use this color for call-to-action (CTA) buttons, such as "Subscribe," "Play," or "Watch Now."
+Apply it to links, icons, or interactive elements to grab attention.
+You can also use it sparingly in the navigation menu or as an accent color for hover effects.
+4. Secondary Color: #caa52b
+Use this warm, golden tone for decorative elements or to highlight secondary information, such as subheadings, labels, or secondary buttons.
+Apply it to borders, dividers, or icons for added elegance.
+Incorporate it subtly in navigation or footer elements for consistency.
+5. Accent Color: #77eb2f
+Use this vibrant green sparingly as an accent color to emphasize specific actions or statuses.
+Apply it to success messages, notifications, progress bars, or badges for a fresh and energetic feel.
+It can also work well for small decorative elements or as a hover state for buttons or links.
+Example Usage:
+Header & Footer:
+Background: #100202
+Text: #fbd0d1
+Links/Icons: #ff6666
+Buttons:
+Primary: #ff6666 (with hover state using #caa52b or lighter shade)
+Secondary: #caa52b
+Sections:
+Background: #100202
+Headings: #fbd0d1
+Decorative Lines/Icons: #caa52b
+Highlights: #77eb2f
+Pop-ups or Cards:
+Background: Lighter shade of #100202 or gradient using the palette
+Text: #fbd0d1
+CTA: #ff6666
+
+
+lighter cshade of bg 
+
+ background-color: #45130d;
+  background-color: #2a0a07;
+  background-color: #601c14;
+  background-color: #7b261b;
+
+
+
+  accent 2 == #e43e41

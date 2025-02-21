@@ -1,0 +1,119 @@
+body{
+background-color: #100202;
+}
+
+.main_container_top{
+    width: 100%;
+    height: 70vh ;
+    min-height: 600px;
+    background-image:url("./images/invincible_video_page_wallaper.webp");
+    background-position: center;
+    background-size: cover;
+}
+.main_container_top-inner{
+    /* margin:0 100px 0 100px; */
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 100px 90px 100px ;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom,#10020215,#10020215 98%,#100202);
+
+}
+.main_container_top-inner > img {
+width:375px;
+height:120px;
+}
+.main_container_top-inner > p{
+    max-width: 550px ;
+    width: 50%;
+    font-size: 18px;
+    font-family: "Nunito", serif;
+    font-weight: 500; 
+    color:#ffffff;
+}
+.main_container_top-inner > div{
+    max-width: 320px ;
+    width: 24%;
+    margin: 0;
+    font-size: 21px;
+    
+
+}
+.main_container_bottom{
+    padding: 50px 0;
+}
+.main_container_bottom > h2{
+  margin: 25px 100px 20px 100px;
+  font-family: "Nunito", serif;
+  font-size: 34px;
+}
+
+.episode_bar{
+    margin: 0 100px 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    transition: all 0.25s linear;
+}
+
+
+.episode_bar:hover{
+    padding: 20px;
+    margin: 0 80px 0px 80px;
+    background-color: #ffffff15;
+    border-radius: 5px;
+}
+.video_box{
+    border-radius: 5px;
+    width: 380px;
+    height: 205px;
+    flex-shrink: 0;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.video_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.video_box svg{
+    position: absolute;
+  margin-left: -224.8px;
+  margin-top: 69.4px;
+  width: 70px;
+  height: 70px;
+  display: none;
+}
+.episode_bar:hover .video_box svg{
+    display: inline;
+}
+.info_box{
+    padding: 0 10px;
+
+}
+.info_box h2{
+    font-family: "Nunito", serif;
+    margin: 0 0 10px 0;
+    
+}
+.info_box p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito", serif;
+    margin: 0 0 10px 0;
+    
+}
+.info_box span{
+    opacity: 0.70;
+    font-size: 17px;
+    font-family: "Nunito", serif;
+    width: 90%;
+    display: inline-block;
+}

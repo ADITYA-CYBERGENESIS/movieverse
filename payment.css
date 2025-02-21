@@ -1,0 +1,159 @@
+* {
+  color: #fbd0d1;
+  font-family: "Nunito", serif;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background: #100202;
+  overflow-x: hidden;
+}
+.top_section-wrapper {
+  border-bottom: 2px solid #fbd0d1;
+  width: 100%;
+  background-color: #100202ac;
+  height: 100px;
+}
+
+.top_header {
+  width: calc(100vw-300px);
+  margin: 0 150px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.top_header img {
+  width: 60px;
+  flex-shrink: 0;
+}
+.top_header a {
+  text-decoration: none;
+  color: #fbd0d1;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 5px 20px;
+  background-color: #ff6666;
+  border-radius: 5px;
+}
+.bottom_section {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 620px;
+}
+.section_left {
+  width: 40%;
+  background-color: red;
+  height: 100%;
+  background-image: url("./images/scrollable_wallpaper.webp");
+  background-repeat: repeat-x;
+  animation: infinite_scroll 120s linear infinite;
+  background-position-y: 0%;
+}
+.section_left-inner {
+  width: 100%;
+  height: 100%;
+  background-color: #100202a7;
+  padding: 50px 0 0 0;
+}
+.section_left-inner > h1 {
+  margin: 0px 0 30px 50px;
+  font-size: 50px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px 0 30px 50px;
+}
+ul li {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+ul li::before {
+  content: "✔"; /* Unicode checkmark */
+  color: #caa52b;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.section_left-inner > button {
+  background-color: #ff6666;
+  font-size: 18px;
+  color: #fbd0d1;
+  border-radius: 5px;
+  border: 2px solid #ff6666;
+  padding: 6px 8px;
+  margin: 0px 0 0px 50px;
+}
+.section_right {
+  width: 60%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.section_right-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.section_right-inner > p {
+  color: #100202;
+  font-size: 18px;
+  font-family: "Nunito", serif;
+  margin: 0 0 20px 0;
+}
+.upi_form {
+  width: 80%;
+  flex-shrink: 0;
+  display: flex;
+  gap: 5px;
+}
+.upi_form input {
+  border-radius: 5px;
+  border: 3px solid#ff6666;
+  font-size: 21px;
+  padding: 5px 5px;
+  color: #ff6666;
+  width: 60%;
+}
+.upi_form button {
+  border-radius: 5px;
+  border: 3px solid#ff6666;
+  background-color: #ff6666;
+  font-size: 21px;
+  padding: 5px 5px;
+  color: #ffffff;
+  width: 39%;
+  cursor: pointer;
+}
+.img_qr_code {
+  border-radius: 5px;
+  padding: 10px;
+  border: 3px solid #ff6666;
+}
+.img_payment_logo {
+  margin: 15px 0 20px 0;
+}
+.img_secure_payment {
+  width: 200px;
+}
+
+@keyframes infinite_scroll {
+  0% {
+    background-position-y: 0%;
+  }
+  50% {
+    background-position-y: 100%;
+  }
+  100% {
+    background-position-y: 0%;
+  }
+}

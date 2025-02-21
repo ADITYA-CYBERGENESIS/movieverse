@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #caa52b;
+}
+input{
+    background-color: #7b261b;
+}
+body{
+    background-color: #100202;
+    z-index: 13;
+    
+}
+.login_container-wrapper{
+    height: calc(100vh - 280px);
+    min-height: 500px;
+    background-image: url("./images/wallpaper_2.jpg");
+    background-position: center;
+    background-size: cover;
+
+    
+
+}
+.login_container-wrapper-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #10020294;
+}
+.login_container{
+      background-color: #45130d;
+    height: 500px;
+    width: 900px;
+    overflow: hidden;
+    /* position: absolute; */
+    margin: 10px  auto;
+    /* left: auto;
+    right: auto; */
+    z-index: 14;
+    flex-shrink: 0;
+    border-radius: 5px;
+    
+}
+.signinh2{
+    background-color: (38, 37, 37);
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    /* margin-top: 80px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    z-index: 12;
+
+}
+.form_container{
+    /* position: absolute; */
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+
+}
+.form{
+ position: absolute;
+ top: 26%;
+ right: 22%;
+ bottom: 360px;
+z-index: 12;
+
+
+
+}
+.form_label{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    margin-left: 10px;
+    /* margin-left: 400px; */
+}
+
+.form_input{
+    border-radius: 20px;
+    border: 1px solid black;
+    /* height: 50px; */
+    width: 325px;
+    padding: 10px 0px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    /* margin-left: 400px; */
+    z-index: 6;
+}
+
+.buttonsign{
+    border-radius: 20px;
+    height: 50px;
+    width: 342px;
+    padding: 10px 0px 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    /* margin-left: 400px; */
+    background-color: #caa52b;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #100202;
+    z-index: 12;
+    border: 0;
+}
+
+.password{
+    text-decoration: none;
+
+
+}
+.forgetpassword{
+    margin-top: 10px;
+    font-size: smaller;
+    /* margin-left: 400px; */
+}
+.Welcome{
+    color: #caa52b;
+    position: absolute;
+    top: 15%;
+    left: 22%; 
+    font-family: "Open Sans", serif;
+    z-index: 12;
+}
+
+@media (max-width:1320px) {
+    .Welcome{
+        left:17%;
+    }
+    .form{
+        right:17.6%;
+    }
+    
+}
+
+.signup{ 
+    text-align: center;
+    width: 120px;
+     margin-left: 150px;
+     margin-top: 30px;
+     border-radius: 20px;
+     border: 3px solid #caa52b;
+    background-color:transparent;
+     padding:10px 15px 10px 15px ; 
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    z-index: 12;
+} 
+
+.triangle {
+    background-color: #100202;
+    height: 35vw;
+    position: relative;
+    right: 45vw;
+    bottom: 3vw;
+    z-index: 10;
+
+}
+
+/* animation animation */
+
+.triangleanimatesignin {
+    animation: triangleanimatesignin 2s;
+    width: 92vw;
+    transform: rotate(130deg);
+}
+
+
+
+@keyframes triangleanimatesignin {
+    from {
+        width: 196vw;
+        transform: rotate(48deg);
+
+    }
+
+    to {
+        width: 92vw;
+        transform: rotate(130deg);
+    }
+}

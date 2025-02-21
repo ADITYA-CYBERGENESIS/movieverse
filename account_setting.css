@@ -1,0 +1,87 @@
+* {
+  font-weight: 500;
+  font-family: "Nunito", serif;
+}
+body {
+  background-color: #100202;
+}
+.setting-container {
+  padding: 50px 100px 50px 100px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.setting-container-left ul li {
+  display: flex;
+  align-items: center;
+  color: #fbd0d1;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 0 5px 2px;
+
+  margin: 0 0 5px 0;
+  border-radius: 5px;
+}
+.setting-container-left {
+  width: 30%;
+}
+.setting-container-left ul li[data-selected="true"] {
+  background-color: #fbd0d11b;
+
+}
+
+.setting-container-left ul li:hover {
+    background-color: #fbd0d11b;
+
+}
+.setting-container-right {
+  width: 70%;
+}
+.account h1 {
+  margin: 0 0 20px 0;
+}
+.setting_card{
+    margin: 0 0 30px 0;
+}
+.setting_card h3 {
+  margin: 0 0 10px 0;
+}
+.setting_card > div {
+  border: 2px solid #fbd0d1;
+  padding: 15px;
+  border-radius: 5px;
+}
+.setting_card > div b {
+  font-size: 18px;
+  font-weight: 600;
+  color: #caa52b;
+  margin: 0 0 5px 0;
+}
+.setting_card > div > p {
+  margin: 0 0 5px 0;
+}
+.setting_option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:5px;
+    padding: 10px 2px;
+    cursor: pointer;
+}
+.setting_option:hover{
+    background-color: #ffffff14;
+}
+.setting_option > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px;
+}
+.setting-container-right > div{
+    display:none;
+}
+
+.setting-container-right > div[data-selected='true']{
+    display:block;
+}
